@@ -1,0 +1,19 @@
+body {
+  background-color: aliceblue;
+}
+.buttons {
+  font-display: flex;
+  align-items: center;
+}
+.buttons button {
+  background-color: darkorange;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.buttons button:last-child {
+  background-color: #fff;
+  color: #000;
+}
